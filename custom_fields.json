@@ -1,0 +1,324 @@
+{
+  "data": [
+    {
+      "name": "Activity Type-custom_formactivo",
+      "dt": "Activity Type",
+      "fieldname": "custom_formactivo",
+      "fieldtype": "Attach Image",
+      "label": "formActivo",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Address-is_your_company_address",
+      "dt": "Address",
+      "fieldname": "is_your_company_address",
+      "fieldtype": "Check",
+      "label": "Is Your Company Address",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Address-tax_category",
+      "dt": "Address",
+      "fieldname": "tax_category",
+      "fieldtype": "Link",
+      "label": "Tax Category",
+      "options": "Tax Category",
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Asset Activity-custom_formactivo",
+      "dt": "Asset Activity",
+      "fieldname": "custom_formactivo",
+      "fieldtype": "Attach Image",
+      "label": "Imagen",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Asset-custom_imagen",
+      "dt": "Asset",
+      "fieldname": "custom_imagen",
+      "fieldtype": "Attach Image",
+      "label": "imagen",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Communication-company",
+      "dt": "Communication",
+      "fieldname": "company",
+      "fieldtype": "Link",
+      "label": "Company",
+      "options": "Company",
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Contact-is_billing_contact",
+      "dt": "Contact",
+      "fieldname": "is_billing_contact",
+      "fieldtype": "Check",
+      "label": "Is Billing Contact",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Custom DocPerm-impersonate",
+      "dt": "Custom DocPerm",
+      "fieldname": "impersonate",
+      "fieldtype": "Check",
+      "label": "Impersonate",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Customer-custom_canal_de_captación",
+      "dt": "Customer",
+      "fieldname": "custom_canal_de_captación",
+      "fieldtype": "Data",
+      "label": "Canal de captación",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Customer-custom_límite_de_crédito_aprobado",
+      "dt": "Customer",
+      "fieldname": "custom_límite_de_crédito_aprobado",
+      "fieldtype": "Currency",
+      "label": "Límite de crédito aprobado",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Customer-custom_número_de_crédito",
+      "dt": "Customer",
+      "fieldname": "custom_número_de_crédito",
+      "fieldtype": "Data",
+      "label": "Número de Crédito",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": "eval:doc.custom_tipo_de_cliente == \"Mayorista\""
+    },
+    {
+      "name": "Customer-custom_rtn",
+      "dt": "Customer",
+      "fieldname": "custom_rtn",
+      "fieldtype": "Data",
+      "label": "RTN",
+      "options": null,
+      "reqd": 1,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Customer-custom_tipo_de_cliente",
+      "dt": "Customer",
+      "fieldname": "custom_tipo_de_cliente",
+      "fieldtype": "Select",
+      "label": "Tipo de Cliente",
+      "options": "Minorista\nMayorista\nCorporativo\nGobierno",
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "DocPerm-impersonate",
+      "dt": "DocPerm",
+      "fieldname": "impersonate",
+      "fieldtype": "Check",
+      "label": "Impersonate",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "DocShare-impersonate",
+      "dt": "DocShare",
+      "fieldname": "impersonate",
+      "fieldtype": "Check",
+      "label": "Impersonate",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Email Account-company",
+      "dt": "Email Account",
+      "fieldname": "company",
+      "fieldtype": "Link",
+      "label": "Company",
+      "options": "Company",
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Employee-custom_contacto_de_emergencia",
+      "dt": "Employee",
+      "fieldname": "custom_contacto_de_emergencia",
+      "fieldtype": "Data",
+      "label": "Contacto de emergencia",
+      "options": null,
+      "reqd": 1,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Employee-custom_estado_de_la_herramienta",
+      "dt": "Employee",
+      "fieldname": "custom_estado_de_la_herramienta",
+      "fieldtype": "Select",
+      "label": "Estado de la Herramienta",
+      "options": "Nuevo\nUsado\nDañado",
+      "reqd": 0,
+      "mandatory_depends_on": "eval:doc.custom_herramienta_asignada"
+    },
+    {
+      "name": "Employee-custom_fecha_de_entrega",
+      "dt": "Employee",
+      "fieldname": "custom_fecha_de_entrega",
+      "fieldtype": "Date",
+      "label": "Fecha de Entrega",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Employee-custom_herramienta_asignada",
+      "dt": "Employee",
+      "fieldname": "custom_herramienta_asignada",
+      "fieldtype": "Link",
+      "label": "Herramienta Asignada",
+      "options": "Item",
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Employee-custom_sede_o_sucursal",
+      "dt": "Employee",
+      "fieldname": "custom_sede_o_sucursal",
+      "fieldtype": "Data",
+      "label": "Sede o sucursal",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Employee-custom_teléfono_de_emergencia",
+      "dt": "Employee",
+      "fieldname": "custom_teléfono_de_emergencia",
+      "fieldtype": "Phone",
+      "label": "Teléfono de emergencia",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Employee-custom_tipo_de_contrato",
+      "dt": "Employee",
+      "fieldname": "custom_tipo_de_contrato",
+      "fieldtype": "Select",
+      "label": "Tipo de contrato",
+      "options": "Tiempo Completo\nMedio Tiempo\nTemporal",
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Item-custom_código_interno",
+      "dt": "Item",
+      "fieldname": "custom_código_interno",
+      "fieldtype": "Data",
+      "label": "Código interno",
+      "options": null,
+      "reqd": 1,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Item-custom_estado_del_producto",
+      "dt": "Item",
+      "fieldname": "custom_estado_del_producto",
+      "fieldtype": "Select",
+      "label": "Estado del producto",
+      "options": "Disponible\nEn uso\nDañado",
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Item-custom_fecha_de_garantía",
+      "dt": "Item",
+      "fieldname": "custom_fecha_de_garantía",
+      "fieldtype": "Date",
+      "label": "Fecha de garantía",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Item-custom_marca",
+      "dt": "Item",
+      "fieldname": "custom_marca",
+      "fieldtype": "Data",
+      "label": "Marca",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Print Settings-compact_item_print",
+      "dt": "Print Settings",
+      "fieldname": "compact_item_print",
+      "fieldtype": "Check",
+      "label": "Compact Item Print",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Print Settings-print_taxes_with_zero_amount",
+      "dt": "Print Settings",
+      "fieldname": "print_taxes_with_zero_amount",
+      "fieldtype": "Check",
+      "label": "Print taxes with zero amount",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Print Settings-print_uom_after_quantity",
+      "dt": "Print Settings",
+      "fieldname": "print_uom_after_quantity",
+      "fieldtype": "Check",
+      "label": "Print UOM after Quantity",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "Product Bundle-custom_producto",
+      "dt": "Product Bundle",
+      "fieldname": "custom_producto",
+      "fieldtype": "Data",
+      "label": "producto",
+      "options": null,
+      "reqd": 0,
+      "mandatory_depends_on": null
+    },
+    {
+      "name": "UTM Campaign-crm_campaign",
+      "dt": "UTM Campaign",
+      "fieldname": "crm_campaign",
+      "fieldtype": "Link",
+      "label": "Messaging CRM Campagin",
+      "options": "Campaign",
+      "reqd": 0,
+      "mandatory_depends_on": null
+    }
+  ]
+}

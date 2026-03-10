@@ -1,0 +1,15 @@
+{
+  "data": [
+    { "name": "Inventory" },
+    { "name": "Manufacturing" },
+    { "name": "Accounts" },
+    { "name": "Sales" },
+    { "name": "Purchase" },
+    { "name": "ContabilidadRole" },
+    { "name": "VentasRole" },
+    { "name": "System Manager Admin" },
+    { "name": "Ventas NovaTech" },
+    { "name": "RRHH NovaTech" },
+    { "name": "Bodega NovaTech" }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "name": "admin@novatech.com",
+      "email": "admin@novatech.com",
+      "full_name": "Administración NovaTech",
+      "enabled": 1
+    },
+    {
+      "name": "bodega@novatech.com",
+      "email": "bodega@novatech.com",
+      "full_name": "Bodega NovaTech",
+      "enabled": 1
+    },
+    {
+      "name": "contabilidad@gmail.com",
+      "email": "contabilidad@gmail.com",
+      "full_name": "Contabilidad",
+      "enabled": 1
+    },
+    {
+      "name": "jose_carabantesa@unicah.edu",
+      "email": "jose_carabantesa@unicah.edu",
+      "full_name": "Joseph Carabantes",
+      "enabled": 1
+    },
+    {
+      "name": "rrhh@novatech.com",
+      "email": "rrhh@novatech.com",
+      "full_name": "RRHH NovaTech",
+      "enabled": 1
+    },
+    {
+      "name": "tikerar419@kaoing.com",
+      "email": "tikerar419@kaoing.com",
+      "full_name": "Activos",
+      "enabled": 1
+    },
+    {
+      "name": "ventas@gmail.com",
+      "email": "ventas@gmail.com",
+      "full_name": "Ventas",
+      "enabled": 1
+    },
+    {
+      "name": "ventas@novatech.com",
+      "email": "ventas@novatech.com",
+      "full_name": "Ventas NovaTech",
+      "enabled": 1
+    }
+  ]
+}
